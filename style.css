@@ -1,0 +1,13 @@
+.page {
+	width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.third {
+    width: calc(33% - 45px);
+    height: calc(33% - 45px);
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #aaa;
+}

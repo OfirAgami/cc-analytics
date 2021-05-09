@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.2.0/chart.js"></script>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div id="passwordContainer">
+			Password: <input type="password" id="passwordTextbox" />
+			<button onclick="sendPassword()">send</button>
+			<span id="authMessage" style="color: red"></span>
+		</div>
+		<div class="page">
+			<div class="third">
+				<canvas id="chart1"></canvas>
+			</div>
+			<div class="third">
+				<canvas id="chart2"></canvas>
+			</div>
+			<div class="third">
+				<canvas id="chart3"></canvas>
+			</div>
+			
+			<div class="third">
+				<canvas id="chart4"></canvas>
+			</div>
+			<!-- <div class="third">
+				<canvas id="chart5"></canvas>
+			</div> -->
+		</div>
+	</body>
+	<script src="index.js"></script>
+</html>
